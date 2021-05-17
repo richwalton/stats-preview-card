@@ -8,19 +8,20 @@ body {
     font-family: 'Lexend Deca', sans-serif;
 }
 
-.image {
-    /* background: url('images/image-header-mobile.jpg') no-repeat  hsl(277, 64%, 61%); */
-    /* background-image:
-    linear-gradient(); */
-
-    background: hsl(277, 75%, 40%);
-}
-img {
-    object-fit: cover;
-    opacity: 0.4;
-}
 .card {
     background-color: hsl(244, 38%, 16%);
     display: block;
-    padding:4em 1.5em;
+    width: 360px;
+    margin:4em 1.5em;
+}
+.image {
+    width: 100%;
+    background: hsl(277, 75%, 40%);
+}
+img {
+    max-width: 360px;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.4;
+    overflow: hidden;
 }

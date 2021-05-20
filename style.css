@@ -71,7 +71,7 @@ main {
     border-radius: 10px;
     background-color: var(--card-background);
     display: block;
-    width: 360px;
+    /* width: 360px; */
     text-align: center;
     margin: 4em 1.5em;
     overflow: hidden;
@@ -87,7 +87,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1.8rem;
+    padding: 2.5rem;
 }
 .content h1 {
     font-family: var(--font-inter);
@@ -134,3 +134,51 @@ img {
 /* ----- Footer Styles ----- */
 .attribution { color: var(--main-paragraph); font-size: 14px; text-align: center; margin: 20px 0;}
 .attribution a { color: hsl(277, 64%, 61%); }
+
+@media(min-width: 651px) {
+    img {
+        object-fit: cover;
+        width: 100%;
+        object-position: top;
+        height: 420px;
+    } 
+    .content {
+        font-size: 1.2rem;
+        padding: 4.5em;
+    }
+    .content p {
+        font-size: 1.5rem;  
+    }
+    .stats {
+        flex-direction: row;
+        justify-content:space-between;
+        width: 90%;
+        margin-top: 10px;
+    }
+}
+@media(min-width: 1050px) {
+    .card {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 1208px;
+        text-align: left;
+    }
+    img {
+        height: 100%;
+    }
+    .content {
+        font-size: 1.1em;
+        width: 52%;
+        justify-content: center;
+        align-items: start;
+        padding: 55px 55px 70px;
+    }
+    .content p {
+        font-size: 1.1em;
+        padding:12px 50px 0 0;
+    }
+    .stats p {
+        font-size: 1.4em;
+    }
+}
+

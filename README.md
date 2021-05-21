@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/richwalton/stats-preview-card)
-- Live Site URL: [Add live site URL here](https://richwalton.github.io/stats-preview-card/)
+- Solution URL: (https://github.com/richwalton/stats-preview-card)
+- Live Site URL: (https://richwalton.github.io/stats-preview-card/)
 
 ## My process
 
